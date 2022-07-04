@@ -1,5 +1,5 @@
-﻿{
-    "name": "arsegugd",
+{
+    "name": "tomoscat",
     "description": "xray websocket proxy on heroku",
     "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -9,19 +9,19 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "edc2f07e-266d-4672-be38-39b426bb2fcc"
+            "value": "d5ed7008-7bae-4382-a083-cabb11d1694a"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/kk3948/arsegugd/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/tomoscat/herisomer/blob/master/etc/CADDYIndexPage.md",
             "value": "https://github.com/wulabing/3DCEList/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/kk3948/arsegugd/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/tomoscat/herisomer/master/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/kk3948/arsegugd/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/tomoscat/herisomer/master/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/kk3948/arsegugd/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/tomoscat/herisomer/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/kk3948/arsegugd",
-    "repository": "https://github.com/kk3948/arsegugd",
+    "website": "https://github.com/tomoscat/herisomer",
+    "repository": "https://github.com/tomoscat/herisomer",
     "stack": "container"
 }
